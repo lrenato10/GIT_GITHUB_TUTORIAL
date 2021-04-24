@@ -6,6 +6,7 @@ git config --global user.name <"Meu_Nome"> #passa a informação para todos os r
 git config --global user.email <"Meu_Email">
 git config --global core.editor <"Editor_Padrao"> #ex <"atom --wait">
 
+
 =====================CMD WINDOWS======================================
 mkdir <Nome_da _Pasta> #Criar uma pasta
 touch <Nome_do_arquivo> #Criar arquivo
@@ -29,6 +30,7 @@ git add <Nome_do_arquivo> #deixa o git visualizar o arquivo leva pro staged
 git add . #deixa o git visualizar TODOS os arquivos leva pro staged
 git commit -m <"mensagens_da_versao"> #momento que pega os arquivos do repositorio e criar snapshop (versao)
 git commit -am <"mensagens_da_versao"> #git add+commit
+git status #mostra se houve alguma modificação nos arquivos da pasta
 git log #historico de versoes
 git log --graph #log com grafico das branchs
 git log --oneline 
@@ -50,6 +52,8 @@ git clone Chave_do_SSH Nome_do_Rep_Clonado #clonar repositorio do meu github
 #fork copia um repositorio que nao é seu e vc quer contribuir
 git push origin :<Nome_da_Tag> #apagar tag do GITHUB
 git push origin :<Nome_do_Branch> #apagar branch do GITHUB
+git pull #puxa as atualizacoes da nuvem GITHUB
+git push #sobe pra nuvem o ultimo commit GITHUB
 
 
 #====================BRANCH===================================
