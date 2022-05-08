@@ -20,7 +20,7 @@ start <Nome_do_programa> #executar programa
 
 se abrir tela de digitação:
 i => para habilitar para digitar
-esc =>sair da digitaçãp
+esc =>sair da digitação
 :wq => salvar e sair
 
 
@@ -54,6 +54,8 @@ git push origin :<Nome_da_Tag> #apagar tag do GITHUB
 git push origin :<Nome_do_Branch> #apagar branch do GITHUB
 git pull #puxa as atualizacoes da nuvem GITHUB
 git push #sobe pra nuvem o ultimo commit GITHUB
+git remote add origin <Chave_do_SSH> #informar repositorio novo para fazer o push
+git push --set-upstream origin master #novo push
 
 
 #====================BRANCH===================================
